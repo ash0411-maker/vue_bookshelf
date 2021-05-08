@@ -18,3 +18,10 @@ require("channels")
 
 import '../stylesheets/application'
 import 'materialize-css/dist/js/materialize'
+import Vue from 'vue'
+import App from './App.vue'
+
+const app = new Vue({
+  el: '#app',
+  render: h => h(App)
+})
