@@ -16,7 +16,6 @@ require("channels")
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
-import '../stylesheets/application'
 import 'materialize-css/dist/js/materialize'
 import Vue from 'vue'
 import App from './App.vue'
